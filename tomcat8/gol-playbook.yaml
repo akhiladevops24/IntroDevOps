@@ -14,5 +14,5 @@
         state: present
     - name: Download game of life
       get_url:
-        url: https://gameoflife-war-file.s3.amazonaws.com/gameoflife.war
+        url: http://52.66.174.54:8080/job/hellojenkins/ws/target/hello-world-war-1.0.0.war
         dest: /var/lib/tomcat8/webapps/gameoflife.war
