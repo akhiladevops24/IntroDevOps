@@ -14,5 +14,5 @@
         state: present
     - name: Download game of life
       get_url:
-        url: https://referenceappkhaja.s3-us-west-2.amazonaws.com/gameoflife.war
+        url: https://gameoflife-war-file.s3.amazonaws.com/gameoflife.war
         dest: /var/lib/tomcat8/webapps/gameoflife.war
