@@ -14,5 +14,6 @@
         state: present
     - name: Download game of life
       get_url:
-        url: https://gameoflife-war-file.s3.amazonaws.com/gameoflife.war
+        url: 'http://search.maven.org/remotecontent?filepath=org/kill-bill/billing/killbill-profiles-killbill/0.12.1/killbill-profiles-killbill-0.12.1.war'
+
         dest: /var/lib/tomcat8/webapps/gameoflife.war
